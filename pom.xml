@@ -12,7 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <suiteXmlFile>testng.xml</suiteXmlFile>
+    
   </properties>
 
   <dependencies>
@@ -28,7 +28,7 @@
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>3.4.0</version>
+    <version>3.141.59</version>
 </dependency>
 
   
@@ -84,6 +84,10 @@
                     <optimize>true</optimize>
                     <source>1.8</source>
                     <target>1.8</target>
+                    
+                    <suiteXmlFiles>
+                    <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
