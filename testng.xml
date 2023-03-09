@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="com.reservation.classjava.EndToEndFlow_HotelReservationTest"/>
+      <class name="com.hotelReservation.TestCases.LaunchApplicationTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
